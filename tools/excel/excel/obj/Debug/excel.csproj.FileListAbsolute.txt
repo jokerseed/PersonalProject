@@ -1,0 +1,15 @@
+E:\mymymymymymy\PersonalUnityProject\tools\excel\excel\bin\Debug\excel.exe.config
+E:\mymymymymymy\PersonalUnityProject\tools\excel\excel\bin\Debug\excel.exe
+E:\mymymymymymy\PersonalUnityProject\tools\excel\excel\bin\Debug\excel.pdb
+E:\mymymymymymy\PersonalUnityProject\tools\excel\excel\bin\Debug\ICSharpCode.SharpZipLib.dll
+E:\mymymymymymy\PersonalUnityProject\tools\excel\excel\bin\Debug\NPOI.dll
+E:\mymymymymymy\PersonalUnityProject\tools\excel\excel\bin\Debug\NPOI.OOXML.dll
+E:\mymymymymymy\PersonalUnityProject\tools\excel\excel\bin\Debug\NPOI.OpenXml4Net.dll
+E:\mymymymymymy\PersonalUnityProject\tools\excel\excel\bin\Debug\NPOI.OpenXmlFormats.dll
+E:\mymymymymymy\PersonalUnityProject\tools\excel\excel\bin\Debug\ICSharpCode.SharpZipLib.pdb
+E:\mymymymymymy\PersonalUnityProject\tools\excel\excel\bin\Debug\ICSharpCode.SharpZipLib.xml
+E:\mymymymymymy\PersonalUnityProject\tools\excel\excel\obj\Debug\excel.csprojAssemblyReference.cache
+E:\mymymymymymy\PersonalUnityProject\tools\excel\excel\obj\Debug\excel.csproj.CoreCompileInputs.cache
+E:\mymymymymymy\PersonalUnityProject\tools\excel\excel\obj\Debug\excel.csproj.CopyComplete
+E:\mymymymymymy\PersonalUnityProject\tools\excel\excel\obj\Debug\excel.exe
+E:\mymymymymymy\PersonalUnityProject\tools\excel\excel\obj\Debug\excel.pdb
