@@ -58,7 +58,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="generator\StructGenerator.cs" />
+    <Compile Include="generator\TableGenerator.cs" />
     <Compile Include="parser\CellExt.cs" />
+    <Compile Include="parser\ConfigParser.cs" />
+    <Compile Include="parser\FieldParser.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="util\MyDebug.cs" />
