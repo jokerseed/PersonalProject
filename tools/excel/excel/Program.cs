@@ -25,6 +25,7 @@ namespace excel
                 return kErrorCode;
             }
 
+
             string command = args[0];
             switch (command)
             {
@@ -32,7 +33,14 @@ namespace excel
                     Help();
                     break;
                 case "-config":
-                    ExportExcel(args[1]);
+                    if (args.Length <= 1)
+                    {
+                        MyDebug.LogWarning("没有config表");
+                    }
+                    else
+                    {
+                        ExportExcel(args[1]);
+                    }
                     break;
             }
             Console.ReadLine();
