@@ -10,7 +10,7 @@ using System.Text;
 
 namespace excel
 {
-    class Program
+    static class Program
     {
         private static readonly int kExitCode = 0;
         private static readonly int kErrorCode = -1;
@@ -24,7 +24,6 @@ namespace excel
                 Console.ReadLine();
                 return kErrorCode;
             }
-
 
             string command = args[0];
             switch (command)
@@ -47,6 +46,7 @@ namespace excel
             return kExitCode;
         }
 
+        //获取表文件IWorkbook
         private static IWorkbook NewWorkbook(FileStream stream)
         {
             return stream.Name.EndsWith(".xlsx") ? (IWorkbook)new XSSFWorkbook(stream) : new HSSFWorkbook(stream);
@@ -54,21 +54,21 @@ namespace excel
 
         private static void ExportExcel(string file)
         {
-            MyDebug.Log($"Config {file}");
+            MyDebug.Log($"Config表 {file}");
             var stream = new FileStream(file, FileMode.Open, FileAccess.Read);
             var workbook = NewWorkbook(stream);
             try
             {
                 var configParser = new ConfigParser();
+                //遍历表中所有sheet
                 for (int i = 0; i < workbook.NumberOfSheets; i++)
                 {
                     var sheet = workbook.GetSheetAt(i);
 
                     MyDebug.Log($"Parsing {file} : {sheet.SheetName}");
-                    if (sheet.LastRowNum < 1) continue;
+                    if (sheet.LastRowNum < 1) continue;//空sheet
                     configParser.AddSheet(sheet);
                 }
-
                 foreach (var config in configParser.configs)
                 {
                     Parsing(config);

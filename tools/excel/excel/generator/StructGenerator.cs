@@ -29,7 +29,7 @@ namespace excel.generator
 
         private int GetMergedColumnSize(ICell cell)
         {
-            if (cell.IsMergedCell)
+            if (cell.IsMergedCell)//是否合并单元格
             {
                 for (int i = 0; i < cell.Sheet.NumMergedRegions; i++)
                 {

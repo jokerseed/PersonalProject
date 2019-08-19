@@ -24,9 +24,9 @@ namespace excel.parser
         public void AddSheet(ISheet sheet)
         {
             //表前三行做描述性用
-            var nameRow = sheet.GetRow(sheet.FirstRowNum);
-            var typeRow = sheet.GetRow(sheet.FirstRowNum + 1);
-            var descRow = sheet.GetRow(sheet.FirstRowNum + 2);
+            var nameRow = sheet.GetRow(sheet.FirstRowNum);//名字
+            var typeRow = sheet.GetRow(sheet.FirstRowNum + 1);//类型
+            var descRow = sheet.GetRow(sheet.FirstRowNum + 2);//描述
             var generator = new StructGenerator("Data", nameRow, typeRow, descRow);
             var fileField = generator.FindParser("file");
             var classOutputFolderField = generator.FindParser("classOutputFolder");
