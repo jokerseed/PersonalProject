@@ -1,0 +1,7 @@
+ManifestFileVersion: 0
+CRC: 4240348317
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: my.other
+      Dependencies: {}
