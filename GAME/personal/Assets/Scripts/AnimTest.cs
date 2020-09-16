@@ -11,13 +11,18 @@ public class AnimTest : MonoBehaviour
 
     private Button btn;
     private ScrollRect sr;
-    
+
+
+    private void Awake()
+    {
+        
+    }
 
     private void Start()
     {
         m_Source = gameObject.AddComponent<AudioSource>();
 
-        var clip  =AssetDatabase.LoadAssetAtPath<AudioClip>("Assets/Audio/scavengers_music.aif");
+        var clip = AssetDatabase.LoadAssetAtPath<AudioClip>("Assets/Audio/scavengers_music.aif");
         m_Source.clip = clip;
         m_Source.Play();
     }
@@ -47,3 +52,4 @@ public class AnimTest : MonoBehaviour
         }
     }
 }
+
