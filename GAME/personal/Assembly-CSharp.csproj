@@ -65,6 +65,7 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\AnimTest.cs" />
     <Compile Include="Assets\Scripts\AssetBundleManager.cs" />
+    <Compile Include="Assets\Scripts\DoubleButton.cs" />
     <Compile Include="Assets\Scripts\Example.cs" />
     <Compile Include="Assets\Scripts\Example2.cs" />
     <Compile Include="Assets\Scripts\Example3.cs" />
@@ -74,6 +75,7 @@
     <Compile Include="Assets\Scripts\ExampleTwo.cs" />
     <Compile Include="Assets\Scripts\IEvent.cs" />
     <Compile Include="Assets\Scripts\Main.cs" />
+    <Compile Include="Assets\Scripts\PageHome.cs" />
     <Compile Include="Assets\Scripts\ResourceManager.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
