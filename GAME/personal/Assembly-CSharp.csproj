@@ -70,6 +70,7 @@
     <Compile Include="Assets\Scripts\Example3.cs" />
     <Compile Include="Assets\Scripts\Example4.cs" />
     <Compile Include="Assets\Scripts\Example5.cs" />
+    <Compile Include="Assets\Scripts\ExampleThree.cs" />
     <Compile Include="Assets\Scripts\ExampleTwo.cs" />
     <Compile Include="Assets\Scripts\IEvent.cs" />
     <Compile Include="Assets\Scripts\Main.cs" />

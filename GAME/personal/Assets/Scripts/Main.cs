@@ -17,7 +17,7 @@ public class Main : MonoBehaviour
         //Image img = Transform.FindObjectOfType<Image>();
         img.sprite = ResourceManager.LoadFromFile() as Sprite;
         go.SetActive(false);
-
+        
         Debug.Log("游戏启动");
     }
 
