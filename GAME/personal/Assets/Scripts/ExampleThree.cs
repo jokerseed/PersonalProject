@@ -27,10 +27,10 @@ public class ExampleThree : MonoBehaviour
     {
         //b.onClick.AddListener(clickHandle);
 
-        //db = GUIDefaultControls.CreateDoubleButton(new DefaultControls.Resources());
-        //db.transform.SetParent(c.transform);
-        //db.GetComponent<DoubleButton>().onDoubleClick.AddListener(clickHandle);
-        //db.GetComponent<DoubleButton>().onDoubleClick.AddListener(clickHandle2);
+        db = GUIDefaultControls.CreateDoubleButton(new DefaultControls.Resources());
+        db.transform.SetParent(c.transform);
+        db.GetComponent<DoubleButton>().onDoubleClick.AddListener(clickHandle);
+        db.GetComponent<DoubleButton>().onDoubleClick.AddListener(clickHandle2);
 
         img.AddComponent<dragCom>();
     }
@@ -67,13 +67,6 @@ class dragCom : MonoBehaviour, IDragHandler, IBeginDragHandler, IEndDragHandler
     public void OnDrag(PointerEventData eventData)
     {
         gameObject.GetRectTransform().anchoredPosition += eventData.delta;
-
-        //Debug.Log("拖动中");
-        //if (RectTransformUtility.ScreenPointToLocalPointInRectangle(gameObject.GetRectTransform(), eventData.position, eventData.pressEventCamera, out v))
-        //{
-        //    gameObject.GetRectTransform().anchoredPosition = v;
-        //}
-        //Debug.Log(v.ToString());
     }
 
     public void OnEndDrag(PointerEventData eventData)
