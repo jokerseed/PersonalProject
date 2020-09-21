@@ -639,8 +639,14 @@
     <Reference Include="UnityEngine.TestRunner">
       <HintPath>E:/mymymymymymymmymymy/PersonalUnityProject/GAME/personal/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.RenderPipeline.Universal.ShaderLibrary">
+      <HintPath>E:/mymymymymymymmymymy/PersonalUnityProject/GAME/personal/Library/ScriptAssemblies/Unity.RenderPipeline.Universal.ShaderLibrary.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>E:/mymymymymymymmymymy/PersonalUnityProject/GAME/personal/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Universal.Shaders">
+      <HintPath>E:/mymymymymymymmymymy/PersonalUnityProject/GAME/personal/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Shaders.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
       <HintPath>E:/mymymymymymymmymymy/PersonalUnityProject/GAME/personal/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
@@ -656,6 +662,12 @@
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>E:/mymymymymymymmymymy/PersonalUnityProject/GAME/personal/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Universal.Runtime">
+      <HintPath>E:/mymymymymymymmymymy/PersonalUnityProject/GAME/personal/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Universal.Editor">
+      <HintPath>E:/mymymymymymymmymymy/PersonalUnityProject/GAME/personal/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
       <HintPath>E:/mymymymymymymmymymy/PersonalUnityProject/GAME/personal/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>

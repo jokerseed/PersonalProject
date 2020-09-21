@@ -71,6 +71,7 @@
     <Compile Include="Assets\Scripts\Example3.cs" />
     <Compile Include="Assets\Scripts\Example4.cs" />
     <Compile Include="Assets\Scripts\Example5.cs" />
+    <Compile Include="Assets\Scripts\ExampleFive.cs" />
     <Compile Include="Assets\Scripts\ExampleThree.cs" />
     <Compile Include="Assets\Scripts\ExampleTwo.cs" />
     <Compile Include="Assets\Scripts\IEvent.cs" />
@@ -115,6 +116,7 @@
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Overlay.shader" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap.shader" />
     <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Oswald-Bold - OFL.txt" />
+    <None Include="Assets\Materials\NewComputeShader.compute" />
     <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Anton OFL.txt" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface.shader" />
@@ -124,6 +126,7 @@
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Properties.cginc" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Surface.cginc" />
+    <None Include="Assets\Materials\NewSurfaceShader.shader" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Masking.shader" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF Overlay.shader" />
@@ -675,8 +678,14 @@
     <Reference Include="Boo.Lang">
       <HintPath>E:/unityEngine/2019.4.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityscript/Boo.Lang.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.RenderPipeline.Universal.ShaderLibrary">
+      <HintPath>E:/mymymymymymymmymymy/PersonalUnityProject/GAME/personal/Library/ScriptAssemblies/Unity.RenderPipeline.Universal.ShaderLibrary.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>E:/mymymymymymymmymymy/PersonalUnityProject/GAME/personal/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Universal.Shaders">
+      <HintPath>E:/mymymymymymymmymymy/PersonalUnityProject/GAME/personal/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Shaders.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
       <HintPath>E:/mymymymymymymmymymy/PersonalUnityProject/GAME/personal/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
@@ -692,6 +701,12 @@
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>E:/mymymymymymymmymymy/PersonalUnityProject/GAME/personal/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Universal.Runtime">
+      <HintPath>E:/mymymymymymymmymymy/PersonalUnityProject/GAME/personal/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Universal.Editor">
+      <HintPath>E:/mymymymymymymmymymy/PersonalUnityProject/GAME/personal/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
       <HintPath>E:/mymymymymymymmymymy/PersonalUnityProject/GAME/personal/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
